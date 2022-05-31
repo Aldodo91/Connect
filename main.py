@@ -31,28 +31,28 @@ class KeywordQueryEventListener(EventListener):
 def airDot():
     return ExtensionResultItem(icon='images/on.png',
                                name='Connetti airDot',
-                               description='Reboot computer',
+                               description='disconnect from phone frist',
                                on_enter=RunScriptAction("bt on air", None))
 
 
 def XairDot():
     return ExtensionResultItem(icon='images/off.png',
                                name='Disconnetti airDot',
-                               description='Reboot computer',
+                               description='and connect to the phone',
                                on_enter=RunScriptAction("bt off air", None))
 
 
 def Pro3Lite():
     return ExtensionResultItem(icon='images/on.png',
                                name='Connetti Pro 3',
-                               description='Nuove',
+                               description='disconnect from phone frist',
                                on_enter=RunScriptAction("bt on red", None))
 
 
 def XPro3Lite():
     return ExtensionResultItem(icon='images/off.png',
                                name='Disconnetti Pro 3',
-                               description='Nuove',
+                               description='and connect to the phone',
                                on_enter=RunScriptAction("bt off red", None))
 
 
