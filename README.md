@@ -1,4 +1,4 @@
-A [Ulauncher extension](https://ext.ulauncher.io/-/github-leinardi-ulauncher-systemctl) to support the `systemctl` actions shutdown, reboot, suspend and hibernate.
+A Ulauncher extension to control the headphones.
 
 ![extension screenshot](https://raw.githubusercontent.com/Aldodo91/Connect/main/ExConnect.png)
 
